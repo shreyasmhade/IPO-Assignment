@@ -36,10 +36,12 @@ const IPODetails = () => {
         </div>
 
         <div className="hidden sm:flex items-center gap-5">
+          <button className="cursor-pointer">
           <img
             src="https://www.svgviewer.dev/static-svgs/367397/document-download.svg"
             className="h-10 w-10"
           />
+          </button>
 
           <button className="px-10 py-4 border rounded-xl bg-indigo-950 text-white font-bold hover:bg-white hover:text-indigo-950 hover:border-indigo-900">
             Apply now
